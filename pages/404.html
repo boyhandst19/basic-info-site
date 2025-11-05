@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>404 — Page Not Found</title>
+</head>
+<body>
+    <main role="main">
+        <div aria-hidden="true">404</div>
+
+        <div>
+            <h1>Page not found</h1>
+            <p>Sorry — the page you are looking for doesn't exist or has been moved. Check the URL or try one of the options below.</p>
+
+            <div role="group" aria-label="404 actions">
+                <a href="/" id="homeBtn">Go to homepage</a>
+                <a href="mailto:admin@example.com?subject=404%20report" id="reportBtn">Report this issue</a>
+                <a href="">Retry</a>
+            </div>
+
+            <form action="https://www.google.com/search" method="get" role="search" aria-label="Search the site">
+                <input type="search" id="q" name="q" placeholder="Search this site (press Enter)" aria-label="Search query">
+                <button type="submit">Search</button>
+            </form>
+
+            <footer>
+                <span>Return to the <a href="/">homepage</a></span>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
